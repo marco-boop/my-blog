@@ -1,5 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
+import React from "react";
+import "app/globals.css";
+import { Inter } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
 
 export function Header() {
   return (
@@ -11,8 +15,8 @@ export function Header() {
           height={20}
           alt="Blog logo. It's cute"
         />
-        <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl text-harvestgold hover:text-gunmetal">
-          <Link href="/">Things Marco writes</Link>
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl/[-0.5] lg:text-6xl/[-1] text-harvestgold hover:text-gunmetal-100">
+          <Link href="/">Marco Writes Things</Link>
         </h1>
 
         <div className="flex flex-row items-center">

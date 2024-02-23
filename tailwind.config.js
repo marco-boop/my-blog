@@ -10,8 +10,10 @@ module.exports = {
     colors: {
       "harvestgold": "#E0A500",
       "darkpurple": "#210029",
-      "gunmetal": "#22333B",
+      "gunmetal-100": "#22333B",
+      "gunmetal-50": "#3C5A68,",
       "platinum": "#D3D5D7",
+      "white": "#FFFFFF",
     },
     extend: {},
   },
