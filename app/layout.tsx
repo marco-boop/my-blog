@@ -21,7 +21,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`antialiased  min-h-screen bg-white dark:bg-slate-950 text-gunmetal dark:text-slate-50 ${inter.className}`}
+        className={`antialiased  min-h-screen bg-white dark:bg-slate-950 text-gunmetal-100 dark:text-slate-50 ${inter.className}`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="max-w-5xl mx-auto px-4 ">
