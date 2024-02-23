@@ -12,19 +12,21 @@ interface HeaderProps {}
 
 const BlogPostHeader: React.FC<HeaderProps> = () => {
   return (
-    <header className="sticky top-0 z-10 bg-harvestgold p-10 max-w-screen">
-      <div className="font-bold tracking-tighter text-4xl  text-gunmetal-100 ">
-        <Link className="hover:text-white" href="/">
-          Marco Writes Things
-        </Link>
-      </div>
+    <header className="sticky top-0 z-10 bg-harvestgold p-10 max-w-screen col-auto">
       <div>
-        <Link
-          className="md:block text-xl text-gunmetal-50 hover:text-white"
-          href="/"
-        >
-          Home
-        </Link>
+        <div className="font-bold tracking-tighter text-4xl  text-gunmetal-100 ">
+          <Link className="hover:text-white" href="/">
+            Marco Writes Things
+          </Link>
+        </div>
+        <div className="pt-1.5">
+          <Link
+            className=" text-lg font-bold	 text-gunmetal-50 hover:text-white tracking-tight"
+            href="/"
+          >
+            Back
+          </Link>
+        </div>
       </div>
     </header>
   );

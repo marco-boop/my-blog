@@ -19,17 +19,15 @@ export function Header() {
           <Link href="/">Marco Writes Things</Link>
         </h1>
 
-        <div className="flex flex-row items-center">
-          <Image
-            src="github-mark.svg"
-            className="w-5 h-5 ml-2"
-            width={20}
-            height={20}
-            alt="GitHub"
-          />
-          <p className="text-m font-bold tracking-wide hover:text-harvestgold pl-1">
-            <Link href="https://github.com/marco-boop">@marco-boop</Link>{" "}
-          </p>
+        <div className="flex ">
+          <ul>
+            <p className="text-m font-bold tracking-wide hover:text-harvestgold pl-1">
+              <Link href="https://github.com/marco-boop">@marco-boop</Link>
+            </p>
+            {/* <p className="text-m font-bold tracking-wide hover:text-harvestgold pl-1">
+              <Link href="/projects">Projects</Link>
+            </p> */}
+          </ul>
         </div>
       </div>
     </header>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function LearningBanner() {
   return (
     <div>
@@ -8,6 +10,11 @@ export function LearningBanner() {
           </h1>
           <p className="mx-auto max-w-3xl text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
             Trust what you say as a true expression of what you are feeling.
+          </p>
+          <p className="text-m font-bold tracking-wide hover:text-harvestgold">
+            <Link href="https://www.pokesearch.dev/">
+              Also working on: https://www.pokesearch.dev/
+            </Link>
           </p>
         </div>
       </div>
