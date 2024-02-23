@@ -7,10 +7,10 @@ import "./globals.css";
 
 export default function Home() {
   return (
-    <div className="max-w-5xl bg-white container py-12 md:py-24">
+    <div className="max-w-screen container py-12 md:py-24">
       <Header />
       <LearningBanner />
-      <div className="prose dark:prose-invert max-w-5xl bg-white container py-2 ">
+      <div className="prose dark:prose-invert max-w-5xl container py-2 ">
         {allPosts.map((post) => (
           <article key={post._id}>
             <Link href={post.slug}>

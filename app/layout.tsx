@@ -3,7 +3,6 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Analytics } from "@/components/analytics";
-import { Footer } from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,10 +20,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`antialiased  min-h-screen bg-white dark:bg-slate-950 text-gunmetal-100 dark:text-slate-50 ${inter.className}`}
+        className={`antialiased  min-h-screen text-gunmetal-100  ${inter.className}`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="max-w-5xl mx-auto px-4 ">
+          <div className="max-w-4xl mx-auto px-4 ">
             <main>
               <div>{children}</div>
             </main>
@@ -32,7 +31,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Analytics />
         </ThemeProvider>
       </body>
-      <Footer />
     </html>
   );
 }

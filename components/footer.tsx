@@ -9,8 +9,10 @@ const EmailLink: React.FC<{
 
 export function Footer() {
   return (
-    <div className="max-w-screen bg-gunmetal-100 text-white p-5 font-bold tracking-tighter ">
-      <EmailLink email="sanchez.junco@gmail.com" name="Contact Me" />
+    <div className="flex flex-col justify-between max-w-screen bg-gunmetal-100 text-white p-5 font-bold tracking-tighter ">
+      <footer className="sticky top-[100vh]">
+        <EmailLink email="sanchez.junco@gmail.com" name="Contact Me" />
+      </footer>
     </div>
   );
 }
