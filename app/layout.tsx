@@ -24,7 +24,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         className={`antialiased  min-h-screen bg-white dark:bg-slate-950 text-gunmetal dark:text-slate-50 ${inter.className}`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="max-w-5xl mx-auto px-4 bg-white ">
+          <div className="max-w-5xl mx-auto px-4 ">
             <main>
               <div>{children}</div>
             </main>

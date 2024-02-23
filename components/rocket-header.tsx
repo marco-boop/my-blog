@@ -17,7 +17,8 @@ const BlogPostHeader: React.FC<HeaderProps> = () => {
         <Link className="hover:text-white" href="/">
           Marco Writes Things
         </Link>
-
+      </div>
+      <div>
         <Link
           className="md:block text-xl text-gunmetal-50 hover:text-white"
           href="/"
