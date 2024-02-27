@@ -21,6 +21,11 @@ export function LearningBanner() {
               - Typing speed test (react app that fetches data from an API)
             </Link>
           </p>
+          <p className="text-m font-bold tracking-wide hover:text-harvestgold">
+            <Link href="https://www.safepassword.app/">
+              - Safe password game inspired by Neal.Fun
+            </Link>
+          </p>
         </div>
       </div>
     </div>
