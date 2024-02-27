@@ -24,9 +24,6 @@ export function Header() {
             <p className="text-m font-bold tracking-wide hover:text-harvestgold pl-1">
               <Link href="https://github.com/marco-boop">@marco-boop</Link>
             </p>
-            {/* <p className="text-m font-bold tracking-wide hover:text-harvestgold pl-1">
-              <Link href="/projects">Projects</Link>
-            </p> */}
           </ul>
         </div>
       </div>
